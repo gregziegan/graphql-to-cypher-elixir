@@ -27,6 +27,6 @@ defmodule GraphqlToCypher.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:graphql, "~> 0.3"}]
   end
 end
